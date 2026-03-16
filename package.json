@@ -1,0 +1,28 @@
+{
+  "name": "livekit-nodejs",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000L\u0000i\u0000v\u0000e\u0000K\u0000i\u0000t\u0000-\u0000N\u0000o\u0000d\u0000e\u0000j\u0000s\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@livekit/agents": "^1.0.50",
+    "@livekit/agents-plugin-cartesia": "^1.0.50",
+    "@livekit/agents-plugin-deepgram": "^1.0.50",
+    "@livekit/agents-plugin-openai": "^1.0.50",
+    "@livekit/agents-plugin-silero": "^1.0.50",
+    "@livekit/noise-cancellation-node": "^0.1.9",
+    "dotenv": "^17.3.1",
+    "livekit-server-sdk": "^2.15.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
